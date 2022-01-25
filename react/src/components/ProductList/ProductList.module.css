@@ -1,0 +1,39 @@
+.tile{
+     height: 175px;
+     width: 175px;
+     box-sizing: content-box;
+     border: 1px solid black;
+     margin: 15px 15px 15px 15px;
+     overflow: hidden;
+     position: relative;
+     display: inline-block;
+     border-radius: 5px;
+     background-position: center;
+     padding: 0%;
+}
+.tile img{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+
+}
+.tile span{
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 100%;
+     text-align: center;
+     font-size: 1em;
+     text-transform: uppercase;
+     background-color: rgb(180, 177, 177);
+     color: #fff;
+     opacity: .8;
+     border-radius: 5px;
+}
+
+.tile:hover{
+     box-shadow: 0 1px 5px 1px #cccccc;
+}
+

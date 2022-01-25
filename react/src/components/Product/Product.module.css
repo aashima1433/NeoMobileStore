@@ -1,0 +1,12 @@
+:local(div.relative) {
+    position: relative;
+    overflow: hidden;
+}
+
+:local(img.cover){
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
